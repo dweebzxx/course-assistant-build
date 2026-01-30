@@ -155,7 +155,7 @@
 
 **RULE 4: Boilerplate Reduction**
 - Extract only course-specific procedures from standard policies
-- Replace generic accommodation language with: "See course_knowledge.policies.accommodations for specific procedures"
+- Replace generic accommodation language with: "See course_core.policies.accommodations for specific procedures"
 - Remove repeated honor code text; keep only course-specific academic integrity expectations
 
 **RULE 5: Duplicate Elimination**
@@ -227,7 +227,7 @@
 
 ## Specific Findings from Current Files
 
-### MGMT-8001-2024-SP.student_knowledge.md
+### MGMT-8001-2024-SP.student_profile.md
 **HARMFUL - Must Redact**:
 ```
 Group Members:
@@ -248,7 +248,7 @@ Group Members:
 Communication: Team uses email and scheduled meetings
 ```
 
-### IDSC-4444-2024-FA.student_knowledge.md
+### IDSC-4444-2024-FA.student_profile.md
 **HARMFUL - Must Redact**:
 ```
 - Partner: Nidhi Upadhyay

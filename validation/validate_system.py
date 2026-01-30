@@ -170,7 +170,7 @@ class SystemValidator:
             try:
                 with open(schema_file, 'r', encoding='utf-8') as f:
                     schema_data = json.load(f)
-                    schema_name = schema_file.stem  # e.g., 'schema.course_knowledge' -> 'schema.course_knowledge'
+                    schema_name = schema_file.stem  # e.g., 'schema.course_core' -> 'schema.course_core'
                     self.schemas[schema_name] = schema_data
                     self.report.schema_count += 1
                     self.report.add_success(f"Loaded schema: {schema_file.name}")

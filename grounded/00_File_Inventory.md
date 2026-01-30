@@ -170,7 +170,7 @@ These materials demonstrate structure patterns and inform template design but ar
 1. No module upload protocol
 2. No module manifest system
 3. No post-upload verification process
-4. No update workflow for course_knowledge when syllabus changes
+4. No update workflow for course_core when syllabus changes
 
 **Quality Gaps**:
 1. No acceptance test suite
