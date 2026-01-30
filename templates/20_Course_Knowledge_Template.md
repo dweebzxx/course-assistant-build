@@ -264,14 +264,62 @@ Upon successful completion of this course, students will be able to:
 - **Location:** {In-class / Online / Testing center}
 - **Materials Allowed:** {List allowed materials}
 
-#### Group Project
+---
 
-{Describe group project if applicable. Details on team structure belong in student_profile.md.}
+## Group Project Context
+<!-- anchor: #group-project-context -->
 
-- **Project Scope:** {Brief description}
-- **Team Size:** {e.g., "4-5 students"}
-- **Number of Milestones:** {X}
-- **Final Deliverable:** {Description}
+{Information about group project structure and team context. Personal names are replaced with placeholders.}
+
+### Project Overview
+
+| Field | Value |
+|-------|-------|
+| **Project ID** | {PROJ-FINAL or GP01} |
+| **Project Title** | {Project title} |
+| **Team Name** | {Team name if assigned} |
+| **Team Size** | {Number of members} |
+
+### Team Structure
+
+| Role | Member ID | Responsibilities |
+|------|-----------|------------------|
+| {Team Lead} | {Member 01 / Josh} | {e.g., "Coordination, final review, presentation lead"} |
+| {Research Lead} | {Member 02} | {e.g., "Literature review, data collection"} |
+| {Analysis Lead} | {Member 03} | {e.g., "Data analysis, visualization"} |
+| {Writing Lead} | {Member 04} | {e.g., "Report drafting, editing"} |
+
+**Josh's Role:** {Specific role and primary responsibilities}
+
+### Communication Norms
+
+{How the team has agreed to communicate.}
+
+| Aspect | Agreement |
+|--------|-----------|
+| **Primary Channel** | {e.g., "Slack group chat"} |
+| **Meeting Frequency** | {e.g., "Weekly Sunday 7 PM via Zoom"} |
+| **Response Expectation** | {e.g., "Respond within 24 hours"} |
+| **Document Sharing** | {e.g., "Google Drive shared folder"} |
+| **Decision Making** | {e.g., "Majority vote; escalate to instructor if deadlocked"} |
+
+### Milestone Ownership
+
+{Josh's responsibilities for each project milestone.}
+
+| Milestone ID | Due Date (Display) | Due Date (ISO) | Josh's Deliverables | Status |
+|--------------|-------------------|----------------|---------------------|--------|
+| MS01 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {e.g., "Draft team charter"} | {Not started / In progress / Complete} |
+| MS02 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Josh's specific deliverables} | {Status} |
+| MS03 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Josh's specific deliverables} | {Status} |
+| MS04 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Josh's specific deliverables} | {Status} |
+
+### Team Challenges and Agreements
+
+{Any known team dynamics or agreements relevant to pacing and support.}
+
+- {e.g., "Member 03 has limited availability in Week 8 - Josh covering additional analysis"}
+- {e.g., "Team agreed to have drafts ready 48 hours before milestone deadlines for review"}
 
 ---
 
@@ -331,6 +379,7 @@ This file contains the following sections indexed for retrieval:
 | #academic-integrity-policy | Academic Integrity Policy | — |
 | #accommodation-policy | Accommodation Policy | — |
 | #assignment-specifications | Assignment Specifications | — |
+| #group-project-context | Group Project Context | {PROJECT_ID} |
 | #communication-guidelines | Communication Guidelines | — |
 | #university-policies-reference | University Policies Reference | — |
 | #index-references | Index References | — |

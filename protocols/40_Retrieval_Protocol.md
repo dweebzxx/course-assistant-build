@@ -615,7 +615,7 @@ Would you like me to explain any specific rubric criteria?
 **Query:** "What is my role in the group project?"
 
 **Process:**
-1. Consult `student_profile.md#group-project-context`
+1. Consult `course_core.md#group-project-context`
 2. Extract student role, responsibilities, and team structure
 3. Cross-reference with `course_schedule.md#milestone-timeline` for upcoming milestones
 4. Identify which milestones the student is responsible for
@@ -637,7 +637,7 @@ Your role in the Final Group Project (GP01):
 - Data Analysis Lead: You (Josh)
 - Presentation Lead: Member 03
 
-Source: student_profile.md#group-project-context
+Source: course_core.md#group-project-context
 
 **Upcoming Milestones You Own:**
 - MS01: Team Formation & Role Assignment - Due Friday, Feb 14, 2026 at 5:00 PM CT

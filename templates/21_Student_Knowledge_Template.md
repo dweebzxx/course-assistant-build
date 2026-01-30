@@ -5,7 +5,7 @@
 **Authority Tier:** 3 (Authoritative for student context and preferences)  
 **Example Filename:** `MGMT-5001-SEC01-2026-SP.student_profile.md`
 
-**Purpose:** Captures student-specific context, preferences, constraints, and group project information to personalize agent responses and support pacing recommendations.
+**Purpose:** Captures student-specific context, preferences, and constraints to personalize agent responses and support pacing recommendations.
 
 **Constraint:** This file is authoritative for student context ONLY. It may NOT contradict course requirements defined in course_core.md or course_schedule.md.
 
@@ -227,63 +227,6 @@
 
 ---
 
-## Group Project Context
-<!-- anchor: #group-project-context -->
-
-{Information about Josh's group project team and responsibilities. Personal names are replaced with placeholders.}
-
-### Project Overview
-
-| Field | Value |
-|-------|-------|
-| **Project ID** | {PROJ-FINAL or GP01} |
-| **Project Title** | {Project title} |
-| **Team Name** | {Team name if assigned} |
-| **Team Size** | {Number of members} |
-
-### Team Structure
-
-| Role | Member ID | Responsibilities |
-|------|-----------|------------------|
-| {Team Lead} | {Member 01 / Josh} | {e.g., "Coordination, final review, presentation lead"} |
-| {Research Lead} | {Member 02} | {e.g., "Literature review, data collection"} |
-| {Analysis Lead} | {Member 03} | {e.g., "Data analysis, visualization"} |
-| {Writing Lead} | {Member 04} | {e.g., "Report drafting, editing"} |
-
-**Josh's Role:** {Specific role and primary responsibilities}
-
-### Communication Norms
-
-{How the team has agreed to communicate.}
-
-| Aspect | Agreement |
-|--------|-----------|
-| **Primary Channel** | {e.g., "Slack group chat"} |
-| **Meeting Frequency** | {e.g., "Weekly Sunday 7 PM via Zoom"} |
-| **Response Expectation** | {e.g., "Respond within 24 hours"} |
-| **Document Sharing** | {e.g., "Google Drive shared folder"} |
-| **Decision Making** | {e.g., "Majority vote; escalate to instructor if deadlocked"} |
-
-### Milestone Ownership
-
-{Josh's responsibilities for each project milestone.}
-
-| Milestone ID | Due Date (Display) | Due Date (ISO) | Josh's Deliverables | Status |
-|--------------|-------------------|----------------|---------------------|--------|
-| MS01 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {e.g., "Draft team charter"} | {Not started / In progress / Complete} |
-| MS02 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Josh's specific deliverables} | {Status} |
-| MS03 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Josh's specific deliverables} | {Status} |
-| MS04 | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Josh's specific deliverables} | {Status} |
-
-### Team Challenges and Agreements
-
-{Any known team dynamics or agreements relevant to pacing and support.}
-
-- {e.g., "Member 03 has limited availability in Week 8 - Josh covering additional analysis"}
-- {e.g., "Team agreed to have drafts ready 48 hours before milestone deadlines for review"}
-
----
-
 ## Progress Tracking
 <!-- anchor: #progress-tracking -->
 
@@ -353,7 +296,6 @@ This file contains the following sections indexed for retrieval:
 | #schedule-and-constraints | Schedule and Constraints | — |
 | #technology-profile | Technology Profile | — |
 | #writing-style-profile | Writing Style Profile | — |
-| #group-project-context | Group Project Context | {PROJECT_ID} |
 | #progress-tracking | Progress Tracking | — |
 | #agent-interaction-history | Agent Interaction History | — |
 | #index-references | Index References | — |
@@ -368,7 +310,6 @@ Before finalizing student profile, verify:
 - [ ] term_id matches other Grounded Knowledge Files
 - [ ] student_name is "Josh" (per system scope)
 - [ ] All section headers have corresponding HTML comment anchors
-- [ ] Group project milestone dates match course_schedule.md (source of truth for dates)
 - [ ] No personal names appear for team members (use Member 01, Member 02, etc.)
 - [ ] Progress tracking sections are initialized (can be "Not started" for future items)
 - [ ] No content contradicts course_core.md policies or course_schedule.md dates

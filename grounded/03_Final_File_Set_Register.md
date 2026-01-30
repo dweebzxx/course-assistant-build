@@ -43,7 +43,9 @@ Example: `CARLSON-SCHOOL-2025-FA.course_core.md`
 6. Course Policies (attendance, participation, late work, academic integrity, accommodations)
 7. Required Resources (textbooks, software, technology requirements)
 8. Learning Objectives (course-level goals)
-9. Index References (section linking to INDEX entries)
+9. Assignment Specifications (general requirements across assignments)
+10. Group project context (anonymized team structure, roles, norms, milestones)
+11. Index References (section linking to INDEX entries)
 
 **Template Filename**: `20_Course_Core_Template.md` (Phase 4 deliverable)
 
@@ -118,10 +120,9 @@ Example: `CARLSON-SCHOOL-2025-FA.student_profile.md`
 5. Technology Profile (access, tools, comfort level)
 6. Writing Style Profile (reference to Writing_Style_Profile_Josh.md or inline summary)
 7. Course Goals (student-specific objectives)
-8. Group Project Context (project_id, role, responsibilities, team structure as Member 01-XX, communication norms, milestone ownership)
-9. Known Challenges (subject areas needing support)
-10. Progress Tracking (optional: completed modules, current focus)
-11. Index References (section linking to INDEX entries)
+8. Known Challenges (subject areas needing support)
+9. Progress Tracking (optional: completed modules, current focus)
+10. Index References (section linking to INDEX entries)
 
 **Template Filename**: `22_Student_Profile_Template.md` (Phase 4 deliverable)
 
@@ -407,6 +408,8 @@ Example: `CARLSON-SCHOOL-2025-FA.module_M03_curated.md`
 - Course policies (attendance, late work, academic integrity, accommodations)
 - Required resources (textbooks, software, technology)
 - Learning objectives (course-level goals)
+- Assignment specifications (general requirements across assignments)
+- Group project context (anonymized team structure, roles, norms, milestones)
 
 **Does NOT contain**:
 - Dates and deadlines (→ course_schedule.md)
@@ -442,7 +445,6 @@ Example: `CARLSON-SCHOOL-2025-FA.module_M03_curated.md`
 - Technology profile (access, tools, comfort)
 - Writing style profile (inline or reference)
 - Course goals (student-specific objectives)
-- Group project context (anonymized team structure, roles, norms, milestones)
 - Known challenges (subject areas needing support)
 - Progress tracking (optional)
 

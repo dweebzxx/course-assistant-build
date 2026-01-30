@@ -379,7 +379,7 @@ What is my role in the group project?
 ```
 
 **Expected Behavior:**
-1. Agent consults `student_profile.md#group-project-context`
+1. Agent consults `course_core.md#group-project-context`
 2. Agent retrieves student role, responsibilities, and team structure
 3. Agent uses anonymized team member labels (Member 01, Member 02, etc.)
 4. Agent cross-references with `course_schedule.md#milestone-timeline` to identify upcoming milestones student owns
@@ -388,12 +388,12 @@ What is my role in the group project?
 
 **Required Citation Format:**
 ```
-Source: student_profile.md#group-project-context
+Source: course_core.md#group-project-context
 Source: course_schedule.md#milestone-timeline
 ```
 
 **Pass Criteria:**
-- ✅ Agent retrieves student role from student_profile.md
+- ✅ Agent retrieves student role from course_core.md
 - ✅ Agent lists responsibilities clearly
 - ✅ Agent uses anonymized team structure (Member 01, etc.)
 - ✅ Agent identifies upcoming milestones student owns
@@ -402,7 +402,7 @@ Source: course_schedule.md#milestone-timeline
 
 **Fail Criteria:**
 - ❌ Agent includes personal names of other team members
-- ❌ Agent fails to cite student_profile.md
+- ❌ Agent fails to cite course_core.md
 - ❌ Agent does not cross-reference milestones
 - ❌ Agent invents role or responsibilities
 

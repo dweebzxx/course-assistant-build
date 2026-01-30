@@ -498,7 +498,7 @@ Do NOT synthesize, infer, or add requirements not found in source materials.
 | Milestone dates authority | course_schedule.md | #milestone-timeline |
 | Project weight | course_core.md | #grading-policy |
 | Late policy | course_core.md | #late-work-policy |
-| Group project context | student_profile.md | #group-project-context |
+| Group project context | course_core.md | #group-project-context |
 
 ---
 
@@ -559,9 +559,9 @@ CRITICAL RULES:
 4. Team agreements are for reference, not authoritative course requirements
 
 STUDENT PROFILE INTEGRATION:
-- Copy relevant sections to student_profile.md#group-project-context
-- Student profile should contain Josh's role, responsibilities, milestone ownership
-- Keep full project details in this file, summary in student profile
+- Copy relevant sections to course_core.md#group-project-context
+- Course core should contain team structure, roles, responsibilities, milestone ownership
+- Keep full project details in this file, summary in course core
 
 AFTER CREATING:
 1. Verify project_id and milestone_ids are registered in INDEX

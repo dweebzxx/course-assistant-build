@@ -51,6 +51,8 @@ Course Schedule > ALL other sources for temporal information.
 - Required resources (textbooks, software, technology requirements)
 - Learning objectives (course-level goals)
 - Course identification (title, number, credits, section)
+- Assignment specifications (general requirements across assignments)
+- Group project context (role, responsibilities, team structure, communication norms, milestone ownership)
 
 **Authority scope:**  
 If a policy, rule, grading component, or structural requirement is defined in `course_core.md`, it is the single source of truth. No other file may override it.
@@ -73,7 +75,6 @@ Course Core may NOT contradict Course Schedule on dates.
 - Student technology profile (access, tools, comfort level)
 - Student writing style profile
 - Student course goals (student-specific objectives)
-- Group project context (role, responsibilities, team structure, communication norms, milestone ownership)
 - Known challenges (subject areas needing support)
 - Progress tracking (completed modules, current focus)
 
