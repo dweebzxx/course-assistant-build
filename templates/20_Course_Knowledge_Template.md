@@ -636,6 +636,8 @@ Before finalizing course knowledge files, verify:
 - [ ] Grading components sum to 100%
 - [ ] All policy sections are populated (or marked "Not specified in syllabus")
 - [ ] No placeholder values remain (all `{brackets}` filled or marked TBD)
+- [ ] Group project section uses Member 01, Member 02, etc. (no personal names for team members)
+- [ ] Group project milestone dates match course_schedule.md (source of truth for dates)
 
 ### Course Schedule Validation
 - [ ] All dates have BOTH display_date AND iso_date fields

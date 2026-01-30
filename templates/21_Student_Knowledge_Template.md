@@ -310,7 +310,6 @@ Before finalizing student profile, verify:
 - [ ] term_id matches other Grounded Knowledge Files
 - [ ] student_name is "Josh" (per system scope)
 - [ ] All section headers have corresponding HTML comment anchors
-- [ ] No personal names appear for team members (use Member 01, Member 02, etc.)
 - [ ] Progress tracking sections are initialized (can be "Not started" for future items)
 - [ ] No content contradicts course_core.md policies or course_schedule.md dates
 - [ ] All dates use dual format (display_date and iso_date) where applicable

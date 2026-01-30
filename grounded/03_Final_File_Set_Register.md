@@ -15,9 +15,9 @@
 
 **Final Grounded Knowledge Files Count (N)**: **3**
 
-1. `{course_id}.course_core.md` - Course policies, grading, structure, instructor
+1. `{course_id}.course_core.md` - Course policies, grading, structure, instructor, group project context
 2. `{course_id}.course_schedule.md` - Timeline, due dates, assignments, modules
-3. `{course_id}.student_profile.md` - Student context, preferences, group project
+3. `{course_id}.student_profile.md` - Student context, preferences, constraints
 
 ---
 
@@ -58,6 +58,9 @@ Example: `CARLSON-SCHOOL-2025-FA.course_core.md`
 - All times use h:mm AM/PM format
 - Grading component weights sum to 100%
 - No personal identifying information (except instructor)
+- Group project section uses Member 01, Member 02, etc. (no personal names for team members)
+- No email addresses, phone numbers, or personal identifiers for group members
+- Group project milestone dates match course_schedule.md (source of truth for dates)
 - All section anchors are unique and follow pattern: `{#section-name}`
 
 ---
@@ -103,7 +106,7 @@ Example: `CARLSON-SCHOOL-2025-FA.course_schedule.md`
 
 ### File Type 3: Student Profile
 
-**Purpose**: Authoritative source for student context, preferences, constraints, and group project information. Updated as student discovers preferences.
+**Purpose**: Authoritative source for student context, preferences, and constraints. Updated as student discovers preferences.
 
 **File Type**: Markdown (.md)
 
@@ -133,8 +136,6 @@ Example: `CARLSON-SCHOOL-2025-FA.student_profile.md`
 - All section headers match template hierarchy
 - Student name is "Josh" only (first name, no last name)
 - Timezone is "America/Chicago" or "CT"
-- Group project section uses Member 01, Member 02, etc. (no personal names)
-- No email addresses, phone numbers, or personal identifiers for group members
 - All dates use display_date + iso_date pairs where applicable
 - All section anchors unique
 

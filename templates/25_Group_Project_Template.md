@@ -558,7 +558,7 @@ CRITICAL RULES:
 3. Focus on Josh's responsibilities for pacing and planning queries
 4. Team agreements are for reference, not authoritative course requirements
 
-STUDENT PROFILE INTEGRATION:
+COURSE CORE INTEGRATION:
 - Copy relevant sections to course_core.md#group-project-context
 - Course core should contain team structure, roles, responsibilities, milestone ownership
 - Keep full project details in this file, summary in course core
@@ -566,7 +566,7 @@ STUDENT PROFILE INTEGRATION:
 AFTER CREATING:
 1. Verify project_id and milestone_ids are registered in INDEX
 2. Cross-reference with course_schedule.md for date authority
-3. Update student_profile.md with Josh's group project context
+3. Update course_core.md with group project context
 -->
 
 ---
