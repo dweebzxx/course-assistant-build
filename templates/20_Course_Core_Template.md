@@ -275,6 +275,20 @@ Upon successful completion of this course, students will be able to:
 
 ---
 
+## Group Project Context
+<!-- anchor: #group-project-context -->
+
+**Group Project:** {Yes / No}
+
+{If No, stop here. If Yes, continue:}
+
+| Field | Value |
+|-------|-------|
+| **Team Name** | {Team name or TBD} |
+| **Project ID** | {Assignment name, e.g., PROJ-FINAL or A10} |
+
+---
+
 ## Communication Guidelines
 <!-- anchor: #communication-guidelines -->
 
@@ -331,6 +345,7 @@ This file contains the following sections indexed for retrieval:
 | #academic-integrity-policy | Academic Integrity Policy | — |
 | #accommodation-policy | Accommodation Policy | — |
 | #assignment-specifications | Assignment Specifications | — |
+| #group-project-context | Group Project Context | — |
 | #communication-guidelines | Communication Guidelines | — |
 | #university-policies-reference | University Policies Reference | — |
 | #index-references | Index References | — |
@@ -374,22 +389,8 @@ This file contains the following sections indexed for retrieval:
 
 | Milestone | Display Date | ISO Date |
 |-----------|--------------|----------|
-| **Term Start** | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} |
-| **Term End** | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} |
 | **Classes Begin** | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} |
 | **Classes End** | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} |
-| **Finals Period Start** | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} |
-| **Finals Period End** | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} |
-
-### Academic Calendar Events
-
-| Event | Display Date | ISO Date | Notes |
-|-------|--------------|----------|-------|
-| {Holiday/Break name} | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {e.g., "No class"} |
-| {Spring Break Start} | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Notes} |
-| {Spring Break End} | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Notes} |
-| {Add/Drop Deadline} | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Notes} |
-| {Withdrawal Deadline} | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {Notes} |
 
 ---
 
@@ -400,13 +401,6 @@ This file contains the following sections indexed for retrieval:
 |-----|------|----------|-------|
 | {Monday} | {h:mm AM} - {h:mm PM} | {Building Room} | {Regular class} |
 | {Wednesday} | {h:mm AM} - {h:mm PM} | {Building Room} | {Regular class} |
-
-**Exceptions to Regular Schedule:**
-
-| Date (Display) | Date (ISO) | Change Description |
-|----------------|------------|-------------------|
-| {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {e.g., "Class cancelled - instructor travel"} |
-| {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {e.g., "Room change to Building XYZ"} |
 
 ---
 
@@ -486,22 +480,6 @@ This file contains the following sections indexed for retrieval:
 
 ---
 
-## Milestone Timeline
-<!-- anchor: #milestone-timeline -->
-
-{For group projects or multi-phase assignments with tracked milestones.}
-
-| Milestone ID | Title | Project ID | Due Date (Display) | Due Date (ISO) | Due Time | Deliverable | Weight (of Project) |
-|--------------|-------|------------|-------------------|----------------|----------|-------------|---------------------|
-| MS01 | {Milestone 1 title} | PROJ-FINAL | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {h:mm AM/PM} | {e.g., "Team formation + topic proposal"} | {X%} |
-| MS02 | {Milestone 2 title} | PROJ-FINAL | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {h:mm AM/PM} | {Deliverable description} | {X%} |
-| MS03 | {Milestone 3 title} | PROJ-FINAL | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {h:mm AM/PM} | {Deliverable description} | {X%} |
-| MS04 | {Milestone 4 - Final} | PROJ-FINAL | {DayOfWeek, Mon DD, YYYY} | {YYYY-MM-DD} | {h:mm AM/PM} | {e.g., "Final presentation + report"} | {X%} |
-
-{Use PROJ-FINAL-MS01 format if multiple projects exist. For single project, MS01 format is sufficient.}
-
----
-
 ## Weekly Overview
 <!-- anchor: #weekly-overview -->
 
@@ -521,19 +499,6 @@ This file contains the following sections indexed for retrieval:
   - {Assignment/Reading/Discussion with date}
 
 {Continue for all weeks of the term.}
-
----
-
-## Special Events
-<!-- anchor: #special-events -->
-
-| Event | Date(s) | Time | Location | Description | Required? |
-|-------|---------|------|----------|-------------|-----------|
-| {Guest speaker} | {DayOfWeek, Mon DD, YYYY} | {h:mm AM/PM} | {Location} | {Description} | {Yes/No/Extra credit} |
-| {Workshop} | {Start Date} to {End Date} | {Time} | {Location} | {Description} | {Yes/No} |
-| {Field trip} | {DayOfWeek, Mon DD, YYYY} | {Time} | {Location} | {Description} | {Yes/No} |
-
-{Include any special events, guest lectures, workshops, or field activities.}
 
 ---
 
@@ -564,9 +529,7 @@ This file contains the following sections indexed for retrieval:
 | #exam-schedule | Exam Schedule | exams |
 | #reading-schedule | Reading Schedule | readings |
 | #discussion-schedule | Discussion Schedule | discussions |
-| #milestone-timeline | Milestone Timeline | milestones |
 | #weekly-overview | Weekly Overview | — |
-| #special-events | Special Events | — |
 | #office-hours-schedule | Office Hours Schedule | — |
 | #index-references | Index References | — |
 
