@@ -383,6 +383,8 @@ M03.zip
 
 ## POST-UPLOAD WORKFLOW
 
+**Note:** Modules are added incrementally as the course progresses. Not all resources need to be present during initial setup. All module resources must be available by the start date of that module.
+
 ### Step 1: User Uploads Module Package
 
 User uploads module folder or ZIP using Method 1 or Method 2.

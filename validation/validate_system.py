@@ -170,7 +170,7 @@ class SystemValidator:
             try:
                 with open(schema_file, 'r', encoding='utf-8') as f:
                     schema_data = json.load(f)
-                    schema_name = schema_file.stem  # e.g., 'schema.course_knowledge' -> 'schema.course_knowledge'
+                    schema_name = schema_file.stem  # e.g., 'schema.course_core' -> 'schema.course_core'
                     self.schemas[schema_name] = schema_data
                     self.report.schema_count += 1
                     self.report.add_success(f"Loaded schema: {schema_file.name}")
@@ -529,8 +529,8 @@ class SystemValidator:
             
             # Map doc_type to schema
             schema_map = {
-                'course_core': 'schema.course_knowledge',
-                'student_profile': 'schema.student_knowledge',
+                'course_core': 'schema.course_core',
+                'student_profile': 'schema.student_profile',
                 'index': 'schema.index_manifest',
                 'module_manifest': 'schema.module_package',
                 'assignment_record': 'schema.assignment_record',

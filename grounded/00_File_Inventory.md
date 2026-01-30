@@ -26,22 +26,22 @@ These materials demonstrate structure patterns and inform template design but ar
 ### MGMT-8001-2024-SP (Spring 2024)
 | Filename | Type | Inferred Purpose | Subsystem | Status |
 |----------|------|------------------|-----------|--------|
-| MGMT-8001-2024-SP.course_knowledge.md | MD | Course knowledge file example | Grounded Knowledge | **Illustrative** |
-| MGMT-8001-2024-SP.student_knowledge.md | MD | Student knowledge file example | Grounded Knowledge | **Illustrative** |
+| MGMT-8001-2024-SP.course_core.md | MD | Course core file example | Grounded Knowledge | **Illustrative** |
+| MGMT-8001-2024-SP.student_profile.md | MD | Student profile file example | Grounded Knowledge | **Illustrative** |
 | MGMT-8001-2024-SP.syllabus.pdf | PDF | Original syllabus document | Source Material | **Illustrative** |
 
 ### IDSC-4444-2024-FA (Fall 2024)
 | Filename | Type | Inferred Purpose | Subsystem | Status |
 |----------|------|------------------|-----------|--------|
-| IDSC-4444-2024-FA.course_knowledge.md | MD | Course knowledge file example | Grounded Knowledge | **Illustrative** |
-| IDSC-4444-2024-FA.student_knowledge.md | MD | Student knowledge file example | Grounded Knowledge | **Illustrative** |
+| IDSC-4444-2024-FA.course_core.md | MD | Course core file example | Grounded Knowledge | **Illustrative** |
+| IDSC-4444-2024-FA.student_profile.md | MD | Student profile file example | Grounded Knowledge | **Illustrative** |
 | IDSC-4444-2024-FA.syllabus.pdf | PDF | Original syllabus document | Source Material | **Illustrative** |
 
 ### OPIM-5771-2025-SP (Spring 2025)
 | Filename | Type | Inferred Purpose | Subsystem | Status |
 |----------|------|------------------|-----------|--------|
-| OPIM-5771-2025-SP.course_knowledge.md | MD | Course knowledge file example | Grounded Knowledge | **Illustrative** |
-| OPIM-5771-2025-SP.student_knowledge.md | MD | Student knowledge file example | Grounded Knowledge | **Illustrative** |
+| OPIM-5771-2025-SP.course_core.md | MD | Course core file example | Grounded Knowledge | **Illustrative** |
+| OPIM-5771-2025-SP.student_profile.md | MD | Student profile file example | Grounded Knowledge | **Illustrative** |
 
 ---
 
@@ -59,8 +59,8 @@ These materials demonstrate structure patterns and inform template design but ar
 ### Observed Architecture (from illustrative examples)
 
 **Grounded Knowledge Files Pattern (2-file system)**:
-1. `{course_id}.course_knowledge.md` - Contains course policies, schedule, assignments, grading
-2. `{course_id}.student_knowledge.md` - Contains student profile, preferences, constraints, group project details
+1. `{course_id}.course_core.md` - Contains course policies, schedule, assignments, grading
+2. `{course_id}.student_profile.md` - Contains student profile, preferences, constraints, group project details
 
 **Working Memory Files Pattern**:
 - Module folders uploaded as needed (evidenced by tree structure)
@@ -75,15 +75,15 @@ These materials demonstrate structure patterns and inform template design but ar
 ### How the Current System Works
 
 1. **Setup Phase**:
-   - Course knowledge extracted from syllabus into structured MD file
-   - Student knowledge compiled from student profile and course-specific context
+   - Course core extracted from syllabus into structured MD file
+   - Student profile compiled from student profile and course-specific context
    - Agent instructions customized with course_id and term_id
    - Files uploaded to custom GPT as Grounded Knowledge
 
 2. **Operational Phase**:
    - Student uploads module content as Working Memory Files
-   - Agent references course_knowledge for facts, policies, due dates
-   - Agent references student_knowledge for preferences, constraints, group context
+   - Agent references course_core for facts, policies, due dates
+   - Agent references student_profile for preferences, constraints, group context
    - Agent uses module content for assignment execution support
    - NotebookLM used for deep reading analysis of longer PDFs
 
@@ -110,13 +110,13 @@ These materials demonstrate structure patterns and inform template design but ar
 - No deterministic ID generation method
 
 **3. Duplication Across Files**:
-- Schedule information appears in both course_knowledge and as separate sections
+- Schedule information appears in both course_core and as separate sections
 - Assignment details duplicated between schedule and assignment sections
-- Group project information scattered across student_knowledge and assignment sections
+- Group project information scattered across student_profile and assignment sections
 
 **4. Ambiguous Authority**:
 - No explicit source-of-truth hierarchy
-- No conflict resolution rules when course_knowledge and module content disagree
+- No conflict resolution rules when course_core and module content disagree
 - No protocol for updating information when syllabus changes
 
 **5. Missing Indexing**:
@@ -126,18 +126,18 @@ These materials demonstrate structure patterns and inform template design but ar
 - No referential integrity checks
 
 **6. Personal Information Exposure**:
-- MGMT-8001 student_knowledge contains full names of 4 group members
-- IDSC-4444 student_knowledge contains full names of 2 group members
+- MGMT-8001 student_profile contains full names of 4 group members
+- IDSC-4444 student_profile contains full names of 2 group members
 - No anonymization or redaction policy
 
 **7. Incomplete Module Integration**:
 - Tree structure shows extensive module content for Carlson-School-2025-FA
 - No clear protocol for how modules should be uploaded (folder? zip? individual files?)
 - No manifest system to track module contents
-- No rules for when module content should be cited vs course_knowledge
+- No rules for when module content should be cited vs course_core
 
 **8. Assignment Information Gaps**:
-- Many assignments lack detailed requirements in course_knowledge
+- Many assignments lack detailed requirements in course_core
 - Unclear whether requirements come from syllabus, module files, or both
 - No structured template for assignment records
 - No linkage between assignments and module content
@@ -170,7 +170,7 @@ These materials demonstrate structure patterns and inform template design but ar
 1. No module upload protocol
 2. No module manifest system
 3. No post-upload verification process
-4. No update workflow for course_knowledge when syllabus changes
+4. No update workflow for course_core when syllabus changes
 
 **Quality Gaps**:
 1. No acceptance test suite
