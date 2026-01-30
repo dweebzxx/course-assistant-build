@@ -280,13 +280,13 @@ Partnership approach: [keep any relevant working norms]
 
 ### Token Efficiency Gains
 **Before Minimization** (estimated):
-- MGMT-8001 course_knowledge.md: ~12,000 tokens
+- MGMT-8001 course_core.md: ~12,000 tokens
 - Group member details: ~200 tokens
 - Redundant boilerplate: ~800 tokens
 - Duplicate assignments: ~600 tokens
 
 **After Minimization** (estimated):
-- MGMT-8001 course_knowledge.md: ~10,000 tokens (16% reduction)
+- MGMT-8001 course_core.md: ~10,000 tokens (16% reduction)
 - Privacy compliant: 100% names removed
 - Retrieval accuracy: Improved through structure
 
