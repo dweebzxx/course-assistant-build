@@ -333,7 +333,7 @@ Index every course entity (assignments, modules, exams, readings, discussions, m
       "project_id": "PROJ-FINAL",
       "related_sections": [
         "course_schedule#milestone-timeline",
-        "student_profile.md#group-project-context"
+        "course_core.md#group-project-context"
       ]
     }
   ]

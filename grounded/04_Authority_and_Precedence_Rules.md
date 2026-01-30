@@ -383,7 +383,7 @@ Source: student_profile.md#[section_id]
 ```
 Based on your group project context, you are responsible for the data analysis milestone.
 
-Source: student_profile.md#group-project-context
+Source: course_core.md#group-project-context
 ```
 
 **For module content (Working Memory Files):**

@@ -101,7 +101,7 @@ You assist Josh with group projects by:
 - Identifying dependencies on other team members
 - Providing milestone planning support
 
-**Source:** `student_profile.md#group-project-context`
+**Source:** `course_core.md#group-project-context`
 
 ---
 

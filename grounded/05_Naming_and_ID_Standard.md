@@ -613,7 +613,7 @@ assignment_id = f"{type_code}-{seq_num:02d}-{hash_suffix}"
 **Examples:**
 - `course_core.md#grading-policy`
 - `course_schedule.md#assignment-calendar(A03)`
-- `student_profile.md#group-project-context(GP01)`
+- `course_core.md#group-project-context(GP01)`
 - `M03/Module_03_Lecture.pptx` (file reference without section)
 
 **Regex:** `^[A-Za-z0-9_\-\.]+#[a-z0-9\-]+(\([A-Z0-9\-]+\))?$`
@@ -715,7 +715,7 @@ assignment_id = f"{type_code}-{seq_num:02d}-{hash_suffix}"
 
 - `course_schedule.md#assignment-calendar(A03)`
 - `course_core.md#grading-policy`
-- `student_profile.md#group-project-context(PROJ-FINAL)`
+- `course_core.md#group-project-context(PROJ-FINAL)`
 
 ---
 

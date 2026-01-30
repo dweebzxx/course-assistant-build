@@ -314,7 +314,7 @@ None
 4. **Group Project Milestone MS01** - Due Friday, Feb 14, 2026 at 5:00 PM CT
    - Source: course_schedule.md#milestone-timeline (MS01)
    - Your role: Data analysis lead
-   - Source: student_profile.md#group-project-context
+   - Source: course_core.md#group-project-context
 
 **UPCOMING (2-4 weeks):**
 
